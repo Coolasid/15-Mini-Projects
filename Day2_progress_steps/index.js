@@ -52,8 +52,7 @@ function update(){
     })
 
     const actives = document.querySelectorAll(".active")
-    console.log(actives);
-    console.log(circles);
+    
 
     progress.style.width = (actives.length-1) / (circles.length-1) *100 + "%";
 
