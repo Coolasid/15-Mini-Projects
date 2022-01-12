@@ -41,7 +41,7 @@ function update(){
 
 
         if( idx < currentActive){
-
+            
             circle.classList.add("active")
 
         }else{
