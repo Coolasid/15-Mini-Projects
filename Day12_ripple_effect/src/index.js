@@ -11,12 +11,14 @@ buttons.forEach((button) =>{
 
     button.addEventListener("click", function(e){
 
-        const x = e.clientX
+        const x = e.clientX  //where client clicks
         const y = e.clientY
+        // console.log(x, y);
 
-        const buttonTop = e.target.offsetTop
+        const buttonTop = e.target.offsetTop  //position of element
         const buttonLeft = e.target.offsetLeft
 
+        // console.log(buttonTop, buttonLeft);
         const xInside = x - buttonLeft
         const yInside = y - buttonTop
 
